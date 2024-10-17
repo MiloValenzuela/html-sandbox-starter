@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: lightblue;
+  border: 2px solid black;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-1 {
+  position: static;
+  left: 30px;
+}
+
+.box-2 {
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+
+.box-3 {
+  position: fixed;
+}
+
+.box-5 {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  background-color: coral;
+}
+
+.box-6 {
+  position: absolute;
+}
